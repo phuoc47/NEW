@@ -28,6 +28,29 @@ ul {
     height: 0;
 }
 
+p a {
+    font: 10px/14px Tahoma, sans-serif;
+    color: #868e36;
+    text-decoration: underline;
+}
+
+p a:hover {
+    color: #868e36;
+    text-decoration: none;
+}
+
+.headline {
+    font: 10px/14px Tahoma, Geneva, sans-serif;
+    color: #868e36;
+    font-weight: bold;
+}
+
+.headline2 {
+    font: 10px/14px Tahoma, Geneva, sans-serif;
+    color: #9d1263;
+    font-weight: bold;
+}
+
 #container {
     width: 685px;
     position: relative;
@@ -158,4 +181,52 @@ ul {
     position: absolute;
     top: 76px;
     left: 19px;
+}
+
+#content {
+    width: 685px;
+    position: relative;
+    background: #fff;
+}
+
+#leftPan {
+    width: 179px;
+    float: left;
+    margin: 26px 39px 0 19px;
+    display: inline;
+}
+
+#rightPan {
+    width: 436px;
+    float: left;
+    margin: 17px 0 0 0;
+}
+
+#featured h2 {
+    height: 38px;
+    position: relative;
+    background: url(../images/h_prod.gif) 0 0 no-repeat;
+    margin-bottom: 6px;
+}
+
+#featured p.headline {
+    margin-bottom: 5px;
+}
+
+.featItem {
+    width: 116px;
+    float: left;
+    margin-right: 44px;
+}
+
+.featItem#i03 {
+    margin-right: 0;
+}
+
+.featItem img {
+    margin-bottom: 15px;
+}
+
+.clear#end {
+    height: 20px;
 }
