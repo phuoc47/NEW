@@ -50,7 +50,6 @@ p a:hover {
     color: #9d1263;
     font-weight: bold;
 }
-
 #container {
     width: 685px;
     position: relative;
@@ -229,4 +228,24 @@ p a:hover {
 
 .clear#end {
     height: 20px;
+}
+
+#welcome h2 {
+    height: 40px;
+    position: relative;
+    background: url(../images/h_welcome.gif) 0 0 no-repeat;
+    margin-bottom: 8px;
+}
+
+#welcome img {
+    margin: 0 0 16px 4px;
+}
+
+#welcome p {
+    margin-left: 4px;
+    margin-right: 12px;
+}
+
+#welcome p.headline {
+    margin-bottom: 15px;
 }
