@@ -249,3 +249,48 @@ p a:hover {
 #welcome p.headline {
     margin-bottom: 15px;
 }
+
+/* footer */
+#footer {
+    height: 49px;
+    clear: both;
+    width: 775px;
+    background: #e8f09c;
+    margin: 0 auto;
+}
+
+#footer p {
+    padding: 10px 0 0 0;
+    font: 10px/16px Tahoma, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: #000;
+}
+
+#footer p a {
+    font: 10px/16px Tahoma, sans-serif;
+    font-weight: normal;
+    color: #000;
+    text-decoration: none;
+    padding: 0 3px;
+}
+
+#footer p a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+/* remove default ASP.NET shell chrome */
+body > header,
+body > footer.footer {
+    display: none;
+}
+
+body > .container {
+    max-width: none;
+    padding: 0;
+}
+
+body > .container main {
+    padding: 0 !important;
+}
