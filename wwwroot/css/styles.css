@@ -146,3 +146,16 @@ ul {
     width: 9px;
     background: url(../images/bullet_m.gif) 0 4px no-repeat;
 }
+
+#header {
+    width: 685px;
+    height: 238px;
+    position: relative;
+    background: #f3ecf1;
+}
+
+#header img#slogan2 {
+    position: absolute;
+    top: 76px;
+    left: 19px;
+}
